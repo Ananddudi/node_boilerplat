@@ -52,6 +52,9 @@ getprivatedata.virtual("empdata", {
   localField: "_id",
   foreignField: "pvtDta",
   justOne: false,
+  // match: {
+  //   age: 19,
+  // },
 });
 
 const loginregisterschema = new mongoose.Schema({
